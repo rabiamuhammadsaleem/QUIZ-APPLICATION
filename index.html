@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" />
+</head>
+
+<body>
+    <!-- option section -->
+    <div id="options-section" class="hidden">
+        <div class="heading-wrapper">
+            <h2 id="quiz-title">SELECT A QUIZ</h2>
+        </div>
+        <div class="options-container">
+            <div class="left">
+                <div class="cont" onclick="startQuiz('general')">
+                    <button name="opt">GENERAL QUESTION</button>
+                </div>
+                <div class="cont" onclick="startQuiz('web')">
+                    <button name="opt">WEB AND APP QUESTION</button>
+                </div>
+                <div class="cont" onclick="startQuiz('math')">
+                    <button name="opt">MATH QUESTION</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="cont" onclick="startQuiz('iq')">
+                    <button name="opt">IQ QUESTION</button>
+                </div>
+                <div class="cont" onclick="startQuiz('quran')">
+                    <button name="opt">QURAN QUESTION</button>
+                </div>
+                <div class="cont" onclick="startQuiz('islamic')">
+                    <button name="opt">ISLAMIC QUESTION</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- quiz section -->
+    <div id="quiz-section" class="quiz-container hidden">
+        <div class="quiz-header">
+            <div class="question-counter">Total: <span id="current-question"></span>/<span id="total-questions"></span>
+            </div>
+            <div class="timer">06:00</div>
+        </div>
+        <h2 id="quiz-title"></h2>
+        <div id="quiz"></div>
+        <button id="next">Next</button>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

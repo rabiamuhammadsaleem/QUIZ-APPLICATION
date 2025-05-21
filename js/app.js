@@ -707,20 +707,69 @@ const quizQuestions = {
 
     web: [
         {
+            question: "What is a website?",
+            opt1: "A TV program",
+            opt2: "A printed book",
+            opt3: "A collection of web pages",
+            opt4: "An email address",
+            correct: "A collection of web pages"
+        },
+        {
+            question: "What does HTML stand for?",
+            opt1: "Hyper Trainer Marking Language",
+            opt2: "Hyper Text Markup Language",
+            opt3: "Hyper Text Marketing Language",
+            opt4: "Hyperlink Text Mark Language",
+            correct: "Hyper Text Markup Language"
+        },
+        {
+            question: "Which property is used in CSS to change text color?",
+            opt1: "font-color",
+            opt2: "color",
+            opt3: "text-color",
+            opt4: "foreground",
+            correct: "color"
+        },
+        {
+            question: "What does CSS stand for?",
+            opt1: "Cascading Style Sheets",
+            opt2: "Colorful Style Syntax",
+            opt3: "Creative Style System",
+            opt4: "Computer Style Sheet",
+            correct: "Cascading Style Sheets"
+        },
+        {
+            question: "Which JavaScript function is used to write text to the browser console?",
+            opt1: "console.write()",
+            opt2: "document.write()",
+            opt3: "console.log()",
+            opt4: "print()",
+            correct: "console.log()"
+        },
+        {
+            question: "In web development, what is Bootstrap primarily used for?",
+            opt1: "Database queries",
+            opt2: "Server scripting",
+            opt3: "Responsive design",
+            opt4: "Image editing",
+            correct: "Responsive design"
+        },
+
+        {
+            question: "Which of the following is a JavaScript framework?",
+            opt1: "Laravel",
+            opt2: "Django",
+            opt3: "React",
+            opt4: "MySQL",
+            correct: "React"
+        },
+        {
             question: "What is HTML used for?",
             opt1: "To style pages",
             opt2: "To add logic",
             opt3: "To create web page structure",
             opt4: "To store data",
             correct: "To create web page structure"
-        },
-        {
-            question: "Which tag is used for a heading in HTML?",
-            opt1: "<head>",
-            opt2: "<h1>",
-            opt3: "<p>",
-            opt4: "<title>",
-            correct: "<h1>"
         },
         {
             question: "What is the file extension for HTML?",
@@ -739,14 +788,6 @@ const quizQuestions = {
             correct: "Styles web pages"
         },
         {
-            question: "Which tag is used for a paragraph?",
-            opt1: "<para>",
-            opt2: "<text>",
-            opt3: "<p>",
-            opt4: "<pg>",
-            correct: "<p>"
-        },
-        {
             question: "What is JavaScript mainly used for?",
             opt1: "Database queries",
             opt2: "Adding interactivity",
@@ -763,52 +804,12 @@ const quizQuestions = {
             correct: "Google Chrome"
         },
         {
-            question: "Which tag is used to make text bold in HTML?",
-            opt1: "<b>",
-            opt2: "<strong>",
-            opt3: "<bold>",
-            opt4: "Both <b> and <strong>",
-            correct: "Both <b> and <strong>"
-        },
-        {
-            question: "Which of the following is a correct CSS syntax?",
-            opt1: "body:color=black;",
-            opt2: "body {color: black;}",
-            opt3: "{body:color=black;}",
-            opt4: "color=black:body;",
-            correct: "body {color: black;}"
-        },
-        {
-            question: "What does the <title> tag do?",
-            opt1: "Adds image",
-            opt2: "Shows text on button",
-            opt3: "Displays title in browser tab",
-            opt4: "Styles the text",
-            correct: "Displays title in browser tab"
-        },
-        {
             question: "Which symbol is used for a class in CSS?",
             opt1: "#",
             opt2: "%",
             opt3: ".",
             opt4: "&",
             correct: "."
-        },
-        {
-            question: "Which of these is a valid HTML tag?",
-            opt1: "<html>",
-            opt2: "<page>",
-            opt3: "<codefile>",
-            opt4: "<makeup>",
-            correct: "<html>"
-        },
-        {
-            question: "Which tag is used for line break in HTML?",
-            opt1: "<break>",
-            opt2: "<br>",
-            opt3: "<lb>",
-            opt4: "<enter>",
-            correct: "<br>"
         },
         {
             question: "Which input type is used for passwords?",
@@ -819,13 +820,13 @@ const quizQuestions = {
             correct: "password"
         },
         {
-            question: "What is a website?",
-            opt1: "A TV program",
-            opt2: "A printed book",
-            opt3: "A collection of web pages",
-            opt4: "An email address",
-            correct: "A collection of web pages"
-        }
+            question: "Which attribute is used to specify the destination of a link?",
+            opt1: "src",
+            opt2: "href",
+            opt3: "alt",
+            opt4: "target",
+            correct: "href"
+        },
     ]
 };
 
